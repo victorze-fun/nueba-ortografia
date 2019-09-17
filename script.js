@@ -3,10 +3,7 @@ $('#submit').addEventListener('click', e => {
 
   let input = $('#input').value
 
-  $('#output').innerHTML = `
-    <textarea readonly spellcheck="false" cols="60" rows="10">
-      ${simplifySpelling(input)}
-    </textarea>`
+  $('#output').value = simplifySpelling(input)
 });
 
 function $(selector) {
