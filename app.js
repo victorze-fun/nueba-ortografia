@@ -33,7 +33,7 @@ function simplifySpelling(text) {
   })
 }
 
-if (typeof module != "undefined") {
+if (typeof module === undefined) {
   module.exports = {
     simplifySpelling
   }
