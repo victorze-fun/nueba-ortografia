@@ -69,6 +69,14 @@ a:hover, a:active {
   text-transform: uppercase;
 }
 
+#submit:hover {
+  cursor: pointer;
+}
+
+#submit:active {
+    transform: scale(1.01, 1.01);
+}
+
 .content {
   margin: 0 auto;
   max-width: 40rem;
