@@ -12,6 +12,10 @@ test('3', () => {
   return simplifySpelling('hora HORA') === 'ora ORA'
 })
 
+test('3.1', () => {
+  return simplifySpelling('Haber Helado Higo Hongo Hugo') === 'Aber Elado Igo Ongo Ugo'
+})
+
 test('4', () => {
   return simplifySpelling('chita CHITA Chita') === 'chita CHITA Chita'
 })
