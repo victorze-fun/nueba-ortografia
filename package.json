@@ -1,8 +1,11 @@
 {
   "name": "nueba-ortografia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Una aplicación que simplifica la ortografía",
-  "main": "index.js",
+  "main": "js/app.js",
+  "files": [
+    "js/app.js"
+  ],
   "directories": {
     "test": "tests"
   },
@@ -15,7 +18,7 @@
   },
   "keywords": [],
   "author": "Victor",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/victorze/nueba-ortografia/issues"
   },
