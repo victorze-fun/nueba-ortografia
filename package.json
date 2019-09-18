@@ -1,0 +1,23 @@
+{
+  "name": "nueba-ortografia",
+  "version": "1.0.0",
+  "description": "Una aplicación que simplifica la ortografía",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorze/nueba-ortografia.git"
+  },
+  "keywords": [],
+  "author": "Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorze/nueba-ortografia/issues"
+  },
+  "homepage": "https://github.com/victorze/nueba-ortografia#readme"
+}
