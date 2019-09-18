@@ -33,19 +33,19 @@ test('6.1', () => {
 })
 
 test('7', () => {
-  return simplifySpelling('ingeniería INGENIERÍA') === 'injeniería INJENIERÍA'
+  return simplifySpelling('ingeniería INGENIERÍA Gemelo') === 'injeniería INJENIERÍA Jemelo'
 })
 
 test('7.1', () => {
-  return simplifySpelling('género GÉNERO') === 'jénero JÉNERO'
+  return simplifySpelling('género GÉNERO Génesis') === 'jénero JÉNERO Jénesis'
 })
 
 test('8', () => {
-  return simplifySpelling('agitar AGITAR') === 'ajitar AJITAR'
+  return simplifySpelling('agitar AGITAR Ginete') === 'ajitar AJITAR Jinete'
 })
 
 test('8.1', () => {
-  return simplifySpelling('logística LOGÍSTICA') === 'lojística LOJÍSTICA'
+  return simplifySpelling('logística LOGÍSTICA Gíralo') === 'lojística LOJÍSTICA Jíralo'
 })
 
 function test(label, body) {
