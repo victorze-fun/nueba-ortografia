@@ -15,14 +15,8 @@ npm install nueba-ortografia
 ```javascript
 const { simplifySpelling } = require('nueba-ortografia')
 
-console.log(simplifySpelling('zanahoria'))
-// -> sanaoria
-
-console.log(simplifySpelling('villa hermosa'))
-// -> billa ermosa
-
-console.log(simplifySpelling('Argentina'))
-// -> Arjentina
+console.log(simplifySpelling('Vive en Argentina y come zanahoria'))
+// -> Bibe en Arjentina y come sanaoria
 ```
 
 License
